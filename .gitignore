@@ -1,0 +1,22 @@
+# --- Büyük medya ve derlenmiş dosyalar ---
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.exe
+*.zip
+
+# --- Sistem dosyaları ---
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*
+
+# --- Python ---
+__pycache__/
+
+# --- Yerel ayarlar ---
+.claude/settings.local.json
+**/.claude/settings.local.json
+
+# --- Kendi git deposu olan departmanlar buraya eklenir ---
