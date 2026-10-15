@@ -13,4 +13,4 @@ Durum değerleri: `açık` · `kullanıcıdan bekleniyor` · `bekliyor (dış)` 
 | No | Tarih | İş | Departman | Durum | Bekleyen |
 |---|---|---|---|---|---|
 
-Son verilen iş no: **000**. Yeni iş 001'den başlar.
+Son verilen iş no: **002**.

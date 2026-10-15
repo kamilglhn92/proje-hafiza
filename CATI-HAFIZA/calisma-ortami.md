@@ -4,16 +4,17 @@ Bu dosya, bütün departmanlarda geçerli olan bilgisayar, araç ve çalışma t
 
 ## Bilgisayar
 
-- İşletim sistemi: bilgi gerekiyor
-- Yönetici (admin) yetkisi: bilgi gerekiyor. Yetki yoksa kurulumlar taşınabilir veya kullanıcı düzeyi sürümlerle yapılır.
-- Ortak sürücü / bulut klasörü: bilgi gerekiyor
+- Çalışma biçimi: Claude Code bulut oturumları (claude.ai/code); kod GitHub repolarında durur. Kullanıcının kendi bilgisayarı: bilgi gerekiyor.
+- Yönetici (admin) yetkisi: bilgi gerekiyor (bulut oturumunda gerekmiyor).
+- Bulut klasörü: Google Drive (bağlı; kaynak dosyalar buradan alınabilir).
 
 ## Araçlar
 
 | Araç | Yol / komut | Durum |
 |---|---|---|
-| Git | `git` | bilgi gerekiyor |
-| Python 3 | `python` veya `py` | bilgi gerekiyor (yoksa `araclar/` betikleri atlanır) |
+| Git | `git` | bulut oturumunda var (2026-10-15) |
+| Python 3 | `python3` | bulut oturumunda var (2026-10-15) |
+| Node.js / npm | `node`, `npm` | bulut oturumunda var (Node 22, 2026-10-15) |
 
 ## Beceri ve bağlantı kullanımı
 
@@ -24,12 +25,16 @@ Bu dosya, bütün departmanlarda geçerli olan bilgisayar, araç ve çalışma t
 |---|---|
 | Hafıza bakımı | `proje-hafizasi` |
 | Yeni iş alanı | `yeni-departman` |
+| Drive'dan dosya alma | Google Drive bağlantısı |
+| GitHub (repo okuma/yazma, PR) | GitHub bağlantısı; yalnız oturuma eklenmiş repolar |
 
 ## Kullanıcının çalışma tercihleri
 
-- Dil: bilgi gerekiyor
-- Yanıt uzunluğu: kısa, sonuç önce, tek net öneri (varsayılan)
+- Dil: Türkçe
+- Yanıt uzunluğu: kısa, sonuç önce, tek net öneri. Filtresiz; yanlışsa doğrudan söyle (kullanıcı tercihi)
 
 ## Bilinen tuzaklar
 
 <!-- Bu bilgisayarda karşılaşılan teknik tuzaklar; ör. özel karakterli klasör adlarında tırnak gerekmesi. -->
+
+- Bulut oturumu yeni GitHub reposu oluşturamıyor (403). Yeni repoyu kullanıcı github.com/new'den açar, sonra oturuma eklenir.
