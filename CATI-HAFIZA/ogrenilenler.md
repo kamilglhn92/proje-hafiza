@@ -16,3 +16,4 @@ Aşağıdaki ilk kayıtlar, bu şablonun doğduğu gerçek kullanımdan gelen ge
 | şablon | Bir yazma işleminin hata vermemesi gerçekten yazdığı anlamına gelmedi | Yazdıktan sonra dosyayı yeniden açıp kontrol et |
 | şablon | Yapay zekâ sohbet araçlarından alınan mevzuat veya belge özetlerinde uydurma çıktı | Resmî metni kendisinden oku; özet kaynak sayılmaz |
 | şablon | Türkçe karakterli ve boşluklu klasör adları komut satırında tırnaksız kullanılınca bozuldu | Yolları her zaman tırnak içinde yaz; yeni klasörlerde sade ad tercih et |
+| 2026-10-15 | Bulut oturumu GitHub'da yeni repo oluşturamadı (403, entegrasyon yetkisi yok) | Yeni repo gerektiğinde kullanıcıdan boş repoyu açmasını iste; bu sırada kodu yerelde hazırla |

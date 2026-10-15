@@ -6,6 +6,7 @@ Bu dosya kurumun bütün departmanlarını (alt klasörleri) kaydeder. GM bir i�
 |---|---|---|---|---|---|
 | `CATI-HAFIZA/` | Kurumun ortak hafızası | Yönetim | Aktif | Bu klasörün kendisi | — |
 | `_SABLON/` | Yeni departman şablonu. Doğrudan iş yapılmaz | Şablon | — | — | — |
+| `kutuphanem` (ayrı repo: `kamilglhn92/kutuphanem`, gizli) | Kişisel kütüphane ve okuma takibi uygulaması (PWA) | Yazılım projesi | Aktif | Kendi reposunda (CLAUDE.md + hafiza klasörü). Burada kopya tutulmaz | — |
 
 ## Personel kadrosu
 
@@ -19,3 +20,5 @@ Yeni personel tanımlandıkça bu tabloya eklenir. Tanımlar `.claude/agents/` k
 ## Yönlendirme ipuçları
 
 <!-- Departmanlar oluştukça "şu tür iş → şu departman" kuralları buraya eklenir. -->
+
+- Kütüphane, okuma takibi, okuma raporları → `kutuphanem` reposu. O repoda çalışılır; bu repoda yalnız sicil satırı ve iş defteri izi kalır.
