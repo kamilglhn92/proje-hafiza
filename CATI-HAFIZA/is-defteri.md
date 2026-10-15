@@ -12,6 +12,5 @@ Durum değerleri: `açık` · `kullanıcıdan bekleniyor` · `bekliyor (dış)` 
 
 | No | Tarih | İş | Departman | Durum | Bekleyen |
 |---|---|---|---|---|---|
-| 002 | 2026-10-15 | Kütüphane uygulaması: ayrı repo + Faz 1 | `kutuphanem` | kullanıcıdan bekleniyor | Kullanıcı boş `kutuphanem` reposunu açacak. DEVAM: kod hazır, ilk commit yerelde; repo açılınca oturuma ekle ve gönder. Uygulamanın kendi açık işleri o reponun `hafiza/is-defteri.md` dosyasında. |
 
 Son verilen iş no: **002**.
