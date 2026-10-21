@@ -12,5 +12,6 @@ Durum değerleri: `açık` · `kullanıcıdan bekleniyor` · `bekliyor (dış)` 
 
 | No | Tarih | İş | Departman | Durum | Bekleyen |
 |---|---|---|---|---|---|
+| 003 | 2026-10-21 | 1000Kitap ↔ Kütüphanem özellik karşılaştırması | `kutuphanem` (iş 013) | kullanıcıdan bekleniyor | Seçim görüşmesi |
 
-Son verilen iş no: **002**.
+Son verilen iş no: **003**.
