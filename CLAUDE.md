@@ -77,7 +77,7 @@ GM şunlarda **kullanıcıya sorar**:
 
 - Parola, erişim kodu, API anahtarı ve gereksiz kişisel veri hiçbir dosyaya yazılmaz, yanıtta gösterilmez.
 - Silme gerekirse kalıcı silme yapılmaz; mümkünse Geri Dönüşüm Kutusu/Çöp kullanılır.
-- Git kuruluysa (kurulumda önerilir) hafıza değişikliğinden sonra kısa commit atılır. Uzak sunucuya gönderme (push) kullanıcı onayı olmadan yapılmaz. Kendi git deposu olan departmanlar kök depoda izlenmez.
+- Git kuruluysa (kurulumda önerilir) hafıza değişikliğinden sonra kısa commit atılır. Push için kullanıcı kalıcı izin verdi (2026-10-22, kullanıcı beyanı): commit'ler oturumun belirlediği dala sormadan gönderilir, değişiklik PR ile gelir; `main`'e doğrudan push edilmez. Kendi git deposu olan departmanlar kök depoda izlenmez.
 - İş, riskine uygun kontrol edilmeden "tamam" denmez. Komut uydurulmaz. Kontrol edilemeyen nokta kontrol edilmiş gibi gösterilmez. Uydurma ve geriye tarih yoktur.
 
 ## 10. İletişim

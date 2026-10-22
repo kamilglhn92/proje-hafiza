@@ -32,6 +32,7 @@ Bu dosya, bütün departmanlarda geçerli olan bilgisayar, araç ve çalışma t
 
 - Dil: Türkçe
 - Yanıt uzunluğu: kısa, sonuç önce, tek net öneri. Filtresiz; yanlışsa doğrudan söyle (kullanıcı tercihi)
+- Erişim: GM'nin bütün hesaplarına (Google dahil) geniş erişimi olsun; kişisel asistan gibi çalışılsın, erişim engeli istemiyor (kullanıcı beyanı, 2026-10-22). Kimlik bilgisi yine dosyaya/sohbete yazılmaz; bağlantılar ve ortam gizli değerleriyle verilir
 
 ## Bilinen tuzaklar
 
