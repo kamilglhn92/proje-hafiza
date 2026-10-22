@@ -39,3 +39,5 @@ Bu dosya, bütün departmanlarda geçerli olan bilgisayar, araç ve çalışma t
 <!-- Bu bilgisayarda karşılaşılan teknik tuzaklar; ör. özel karakterli klasör adlarında tırnak gerekmesi. -->
 
 - Bulut oturumu yeni GitHub reposu oluşturamıyor (403). Yeni repoyu kullanıcı github.com/new'den açar, sonra oturuma eklenir.
+- Bulut oturumunun Google Cloud'a (Console, API anahtarı) erişimi yok. Kullanıcının bilgisayarındaki Chrome eklentisine kurallı bir talimat yazılır (ödeme yok, silme yok, anahtar sohbete yazılmaz, beklenmedik ekranda durup sorar); eklenti işi yapar, raporu buraya gelir.
+- Supabase bağlantısında Edge Function silme aracı yok; `execute_sql` ile `delete` onay kapısı oturuma ulaşmadığı için zaman aşımına uğruyor. Silmeyi kullanıcı panelden ya da SQL Editor'dan yapar, sonra buradan sayılarak doğrulanır.
