@@ -17,3 +17,5 @@ Aşağıdaki ilk kayıtlar, bu şablonun doğduğu gerçek kullanımdan gelen ge
 | şablon | Yapay zekâ sohbet araçlarından alınan mevzuat veya belge özetlerinde uydurma çıktı | Resmî metni kendisinden oku; özet kaynak sayılmaz |
 | şablon | Türkçe karakterli ve boşluklu klasör adları komut satırında tırnaksız kullanılınca bozuldu | Yolları her zaman tırnak içinde yaz; yeni klasörlerde sade ad tercih et |
 | 2026-10-15 | Bulut oturumu GitHub'da yeni repo oluşturamadı (403, entegrasyon yetkisi yok) | Yeni repo gerektiğinde kullanıcıdan boş repoyu açmasını iste; bu sırada kodu yerelde hazırla |
+| 2026-10-22 | Google Cloud işi (Books API anahtarı) Chrome eklentisine yazılı talimatla yaptırıldı: kurallar başta, adımlar numaralı, rapor biçimi sabit | Kullanıcının tarayıcısında yapılacak dış işler için aynı kalıbı kullan; anahtarı kullanıcı kendisi yapıştırır |
+| 2026-10-22 | CORS'u curl ile denemek yanılttı: tarayıcı ön kontrolü (`x-region` başlığı) isteği kesiyordu, curl'de sorun yoktu | Tarayıcıdan çağrılan uç noktaları gerçek tarayıcıyla (Playwright, uygulamanın kökeninden `fetch`) dene |
