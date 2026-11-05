@@ -7,6 +7,7 @@ Bu dosya kurumun bütün departmanlarını (alt klasörleri) kaydeder. GM bir i�
 | `CATI-HAFIZA/` | Kurumun ortak hafızası | Yönetim | Aktif | Bu klasörün kendisi | — |
 | `_SABLON/` | Yeni departman şablonu. Doğrudan iş yapılmaz | Şablon | — | — | — |
 | `kutuphanem` (ayrı repo: `kamilglhn92/kutuphanem`, gizli) | Kişisel kütüphane ve okuma takibi uygulaması (PWA) | Yazılım projesi | Aktif | Kendi reposunda (CLAUDE.md + hafiza klasörü). Burada kopya tutulmaz | — |
+| `skyhem-takip` (ayrı repo: `kamilglhn92/skyhem-takip`, herkese açık) | SKYHEM iç takip uygulaması (PWA): numune, satış, içme suyu, yemek, yoklama; planlanan: gümrük klipsi takibi | Yazılım projesi | Aktif | Repoda hafıza düzeni yok (bilgi gerekiyor: kurulacak mı) | — |
 
 ## Personel kadrosu
 
@@ -21,4 +22,5 @@ Yeni personel tanımlandıkça bu tabloya eklenir. Tanımlar `.claude/agents/` k
 
 <!-- Departmanlar oluştukça "şu tür iş → şu departman" kuralları buraya eklenir. -->
 
+- SKYHEM iç takip işleri (numune, satış, sevkiyat, klips, su, yemek, yoklama) → `skyhem-takip` reposu.
 - Kütüphane, okuma takibi, okuma raporları → `kutuphanem` reposu. O repoda çalışılır; bu repoda yalnız sicil satırı ve iş defteri izi kalır.
