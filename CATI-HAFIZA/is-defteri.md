@@ -12,5 +12,6 @@ Durum değerleri: `açık` · `kullanıcıdan bekleniyor` · `bekliyor (dış)` 
 
 | No | Tarih | İş | Departman | Durum | Bekleyen |
 |---|---|---|---|---|---|
+| 003 | 2026-11-05 | Gümrük klipsi takibi (IBC/isotank/varil; parti–ambalaj–klips no kaydı) | `skyhem-takip` | kullanıcıdan bekleniyor | Plan soruları yanıtı. DEVAM: plan sunuldu; yanıtlara göre veri modeli kesinleşip üretime geçilecek |
 
-Son verilen iş no: **002**.
+Son verilen iş no: **003**.
